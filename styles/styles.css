@@ -333,6 +333,10 @@ margin-left: 40px;
     padding-top: 7rem;
     padding-right: 6rem;
 }
+.calculate-description{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.65);
+}
 .bmi-title{
     margin-bottom: 3rem;
     margin-right: 1rem;
@@ -647,8 +651,11 @@ border-radius: 15px;
         width: 100%;
         align-items:center;
         padding-right: 0;
+        gap: 14px;
+        
 
     }
+
 
     .creative-section{
         flex-direction:column-reverse;
