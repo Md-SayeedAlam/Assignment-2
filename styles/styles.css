@@ -42,7 +42,7 @@ header{
 
 /* nav styles here */
 .header-container, .hero{
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto ;
 }
 .nav-bar{
