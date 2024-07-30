@@ -324,7 +324,7 @@ margin-left: 40px;
     
 }
 .calculate{
-    width: 50%;
+    max-width: 480px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -365,31 +365,47 @@ background: rgba(255, 255, 255, 0.1);}
 
 
 .input-cal{
-    display:flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* display:flex;
     flex-wrap: wrap;
-    
+     */
     gap: 10px;
     
 }
 .items{
     padding: 12px 20px 12px 20px;
+    /* padding: 12px 10px 12px 10px; */
     border-radius: 8px;
     border: none;
 
 background: rgba(255, 255, 255, 0.1);
+color: gray;
 }
 .item{
-    width: 100%;
+    /* width: 100%; */
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    border: none;
+
+background: rgba(255, 255, 255, 0.1);
+    grid-column: 1 / span 2;
+    
     margin-bottom: 10px;
+    color: gray;
+    
 }
 
-.items-2{
+
+
+ .items-2{
     padding:12px 239px 12px 20px;
     border-radius: 8px;
 
 background: rgba(255, 255, 255, 0.1);
 border:none;
-}
+} 
+
 /* my creative section styles here */
 .creative-section{
     max-width: 80%;
@@ -538,6 +554,7 @@ filter: brightness(80%);
 /* mobile responsive styles here */
 
 @media screen and (max-width:576px) {
+    
     .header-container, .hero{
         width: 90%;
         margin: 0 auto;
@@ -638,8 +655,9 @@ border-radius: 15px;
     .chart{
         margin-top: 20px;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         width: 100%;
+        /* height: 100%; */
     }
     .chart-container{
         padding: 0;
@@ -647,18 +665,27 @@ border-radius: 15px;
     }
     .calulator{
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
+        /* text-align: start; */
     }
     .calculate{
         padding-top: 1rem;
         width: 100%;
-        align-items:center;
+        /* align-items:center; */
         padding-right: 0;
         gap: 14px;
         
 
     }
-
+     .input-cal{
+        gap: 5px;
+        width: 100%;
+     }
+     .items{
+        padding: 12px 10px;}
+        .item{
+            padding: 12px 2px;
+        }
 
     .creative-section{
         flex-direction:column-reverse;
