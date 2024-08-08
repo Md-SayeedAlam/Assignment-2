@@ -373,15 +373,14 @@ background: rgba(255, 255, 255, 0.1);}
 .input-cal{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* display:flex;
-    flex-wrap: wrap;
-     */
+    
+    
     gap: 10px;
     
 }
 .items{
     padding: 12px 20px 12px 20px;
-    /* padding: 12px 10px 12px 10px; */
+    
     border-radius: 8px;
     border: none;
 
@@ -389,7 +388,7 @@ background: rgba(255, 255, 255, 0.1);
 color: gray;
 }
 .item{
-    /* width: 100%; */
+    
     padding: 12px 20px 12px 20px;
     border-radius: 8px;
     border: none;
@@ -629,10 +628,7 @@ filter: brightness(80%);
         gap: 5px;
         width: 90%;
         margin: 15px auto;
-        /* width:400px; */
-        /* height: 531px; */
-        /* justify-content: center;
-        align-items: center; */
+       
     }
     .run-extra{
         justify-items: center;
@@ -660,28 +656,25 @@ border-radius: 15px;
         margin-left: 0;
     }
     .chart{
-        /* margin-top: 20px; */
+        
         flex-direction: column;
-        /* align-items: center; */
+        
         width: 100%;
-        /* height: 100%; */
+        
     }
     .chart-container{
-        /* padding-left: 20px; */
+        
         width: 100%;
        
 
     }
     .calulator{
-        /* width: 100%; */
+       
         align-items: flex-start;
-        /* text-align: start; */
+        
     }
     .calculate{
         padding-top: 1rem;
-        /* width: 100%; */
-        /* align-items:center; */
-        /* padding-left: 20px; */
         padding-right: 0;
         gap: 14px;
         
