@@ -6,11 +6,14 @@
 *{
     margin: 0;
     padding: 0;
+    
     }
 /* shared styles */
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
+    
+    
 }
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -37,7 +40,7 @@ header{
        background: black;
        width: 13rem;
        height: 3rem;
-       border:1px solid rgba(255, 255, 255, 0.1) ;
+       border:1px solid white ;
 }
 
 /* nav styles here */
@@ -121,6 +124,8 @@ h1{
     margin-bottom: 1rem;
     font-size: 4rem;
     font-weight: 700;
+   
+    line-height: 110%;
     
 
 }
@@ -128,13 +133,16 @@ h1{
   font-weight:300;
   font-size: .8rem;
   color: rgba(255, 255, 255, 0.4);
+  margin-top: 4rem;
 
    
 }
 .btn{
     display: flex;
     gap: 20px;
+    
 }
+
 .banner-img-section{
     width: 60%;
     margin-left: 7rem;
@@ -142,7 +150,7 @@ h1{
     
 }
 .btn{
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 .image{
     position: relative;
@@ -312,9 +320,6 @@ margin-left: 40px;
 }
 .chart-container{
     width: 50%;
-    
-    
-    
     padding-top: 7rem;
 }
 .calulator{
@@ -419,6 +424,7 @@ border:none;
 .creative-img-container img{
     border: none;
   border-radius: 2rem;
+  
   
   
 }
@@ -601,14 +607,14 @@ filter: brightness(80%);
     }
     .box-1{
         position: absolute;
-        top: 40em;
+        top: 36em;
         right: 2rem;
 
     }
     .box-2{
         position: absolute;
         left: 2em;
-        top: 53rem;
+        top: 49.6rem;
     }
     .habit-description{
         margin-top: 2px;
@@ -654,25 +660,28 @@ border-radius: 15px;
         margin-left: 0;
     }
     .chart{
-        margin-top: 20px;
+        /* margin-top: 20px; */
         flex-direction: column;
         /* align-items: center; */
         width: 100%;
         /* height: 100%; */
     }
     .chart-container{
-        padding: 0;
+        /* padding-left: 20px; */
         width: 100%;
+       
+
     }
     .calulator{
-        width: 100%;
-        /* align-items: center; */
+        /* width: 100%; */
+        align-items: flex-start;
         /* text-align: start; */
     }
     .calculate{
         padding-top: 1rem;
-        width: 100%;
+        /* width: 100%; */
         /* align-items:center; */
+        /* padding-left: 20px; */
         padding-right: 0;
         gap: 14px;
         
@@ -680,7 +689,7 @@ border-radius: 15px;
     }
      .input-cal{
         gap: 5px;
-        width: 100%;
+       width: 100%;
      }
      .items{
         padding: 12px 10px;}
